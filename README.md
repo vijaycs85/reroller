@@ -33,7 +33,7 @@ $controller->byBranch($query, $branch);
 
 ```bash
 # Success
-➜  reroller php index.php
+➜  php index.php
 Already on '8.4.x'
 M	core/modules/user/src/Controller/UserController.php
 M	core/modules/user/src/Tests/UserLoginTest.php
@@ -45,7 +45,7 @@ Current branch 8.4.x is up to date.
 patch in 992540 is green!
 
 # Error
-➜  reroller php index.php
+➜  php index.php
 Already on '8.4.x'
 M	core/modules/user/src/Controller/UserController.php
 M	core/modules/user/src/Tests/UserLoginTest.php
@@ -60,10 +60,10 @@ Can't apply patch in https://www.drupal.org/node/992540
 ```bash
 
 # Success
-➜  reroller php index.php
+➜  php index.php
 patch in 992540 is green!
 
 # Error
-➜  reroller php index.php
+➜  php index.php
 Can't apply the latest patch at https://www.drupal.org/node/992540
 ```
