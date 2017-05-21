@@ -1,0 +1,22 @@
+{
+  "name": "vijaycs85/reroller",
+  "description": "Checks if latest patch on RTBCed issues are still apply with HEAD on Drupal.org",
+  "keywords": ["drupalorg"],
+  "license": "GPL-2.0",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Vijaya Chandran Mani",
+      "email": "vijaycs85@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+        "hussainweb/drupal-api-client": "^1.0"
+    },
+  "autoload": {
+    "psr-4": {
+      "Vijaycs85\\Reroller\\": "src/"
+    }
+  }
+}
